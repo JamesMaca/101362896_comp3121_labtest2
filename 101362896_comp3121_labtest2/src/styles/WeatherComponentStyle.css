@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column; /* Change to column */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.search-bar input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.weather-info {
+  background-color: #B0E0E6;
+  width: 25%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Add margin to separate search-bar and weather-info */
+}
+
+.weather-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-desc img {
+  width: 100px;
+  height: 100px;
+}
+
+.temp p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.weekly-forcast ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weekly-forcast li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.weekly-forcast li img {
+  width: 40px;
+  height: 40px;
+}
+
+
